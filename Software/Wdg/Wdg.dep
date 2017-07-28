@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>427661512</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\ResetController.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ResetTimer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\CommandManager.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Clock.h</file>
+      <file>$PROJ_DIR$\CommandManager.cpp</file>
+      <file>$PROJ_DIR$\CommandManager.h</file>
+      <file>$PROJ_DIR$\IResetController.h</file>
+      <file>$PROJ_DIR$\ISubscriber.h</file>
+      <file>$PROJ_DIR$\IRebooter.h</file>
+      <file>$PROJ_DIR$\ResetController.cpp</file>
+      <file>$PROJ_DIR$\ResetController.h</file>
+      <file>$PROJ_DIR$\Clock.cpp</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\ResetTimer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Uart.o</file>
+      <file>$TOOLKIT_DIR$\config\lnkstm8s003f3.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Uart.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Wdg.pbd</file>
+      <file>$PROJ_DIR$\ResetTimer.cpp</file>
+      <file>$PROJ_DIR$\BaseTimer.cpp</file>
+      <file>$PROJ_DIR$\main.cpp</file>
+      <file>$PROJ_DIR$\Debug\Exe\Wdg.out</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\Uart.pbi</file>
+      <file>$PROJ_DIR$\GpioRebooter.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
+      <file>$TOOLKIT_DIR$\inc\io_macros.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Clock.o</file>
+      <file>$PROJ_DIR$\BaseTimer.h</file>
+      <file>$PROJ_DIR$\Debug\List\Wdg.map</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Clock.pbi</file>
+      <file>$PROJ_DIR$\GpioRebooter.cpp</file>
+      <file>$PROJ_DIR$\Uart.cpp</file>
+      <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\BaseTimer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\GpioRebooter.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\CommandManager.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\iostm8s003f3.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\BaseTimer.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\GpioRebooter.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ResetTimer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ResetController.pbi</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 23 32</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CommandManager.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 7 13 29 38 18 8 3 39 46 27 6</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 6 43 3 13 39 27 38 29 46 8 7 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ResetController.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 29 13 3 46 43 11 8 27 38 31 7 9</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 11 43 3 13 39 27 38 29 46 8 7 9 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Clock.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 29 3 38 43 46 27 44 13 28 4</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 4 43 3 13 39 27 38 29 46 44 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ResetTimer.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 3 28 8 39 29 44 46 27 4 43 13 14</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 14 43 3 13 39 27 38 29 46 8 4 44 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\BaseTimer.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 3 28 8 39 29 44 46 27 4 43 13 31</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 31 43 3 13 39 27 38 29 46 8 4 44 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 29 13 3 46 43 18 8 27 38 4 26 11 9 6 7</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 18 43 3 13 39 27 38 29 46 8 4 26 9 11 7 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\Wdg.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 16 45 30 42 47 33 0 48 15 24 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\GpioRebooter.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 3 9 39 29 44 46 27 8 28 14 43 13 26</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 26 43 3 13 39 27 38 29 46 9 8 14 44 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Uart.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 3 28 8 39 29 44 46 27 4 43 13 18</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 18 43 3 13 39 27 38 29 46 8 4 44 28</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
